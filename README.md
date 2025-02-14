@@ -65,10 +65,111 @@ We welcome contributions to improve the Financial Planner! To contribute, follow
 5. Open a pull request
    
 ## How to Use
+Navigate to the project directory where the program is located 
+
+```bash
+cd Financial-Program
+```
 Run the program using the command:
 ```bash
 python FinancialPlanner.py
 ```
+1. Input Monthly Income :
+When prompted, enter your total monthly income as a number (e.g., 5000).
+Do not include commas or special characters (e.g., input 5000 instead of 5,000).
+2. Add Monthly Expenses :
+Enter your monthly expenses one by one when prompted.
+For example, you can add expenses like rent, utilities, groceries, etc., as numbers (e.g., 1500 for rent).
+3. Set a Savings Goal :
+Input your desired savings goal for the month (e.g., 1000).
+This will help the program calculate how much you need to save based on your income and expenses.
+4. View the Budget Summary :
+After entering your income, expenses, and savings goal, the program will generate a budget summary.
+5. The summary includes:
+Total Income
+Total Expenses
+Remaining Savings
+Savings Goal
+6. Save the Summary :
+The program will save the budget summary to a .txt file for future reference.
+You can find the saved file in the project directory.
+7. Quit the Program :
+Once you’re done, choose the "Quit" option to exit the program.
+You can rerun the program later to track additional financial data.
+8. Example 
+```bash
+--- Budget Manager ---
+1. Add Income
+2. Add Expense
+3. Set Savings Goal
+4. Calculate Summary
+5. Save Summary to File
+6. Quit
+Enter your choice (1-6): 1
+Enter income amount: 5000
+Income of 5000 added successfully.
+
+--- Budget Manager ---
+1. Add Income
+2. Add Expense
+3. Set Savings Goal
+4. Calculate Summary
+5. Save Summary to File
+6. Quit
+Enter your choice (1-6): 2
+Enter expense amount: 1500
+Expense of 1500 added successfully.
+
+--- Budget Manager ---
+1. Add Income
+2. Add Expense
+3. Set Savings Goal
+4. Calculate Summary
+5. Save Summary to File
+6. Quit
+Enter your choice (1-6): 3
+Enter savings goal: 1000
+Savings goal set to 1000.
+
+--- Budget Manager ---
+1. Add Income
+2. Add Expense
+3. Set Savings Goal
+4. Calculate Summary
+5. Save Summary to File
+6. Quit
+Enter your choice (1-6): 4
+--- Budget Summary ---
+Total Income: $5000.00
+Total Expenses: $1500.00
+Remaining Savings: $3500.00
+Savings Goal: $1000.00
+
+--- Budget Manager ---
+1. Add Income
+2. Add Expense
+3. Set Savings Goal
+4. Calculate Summary
+5. Save Summary to File
+6. Quit
+Enter your choice (1-6): 5
+Summary saved to budget_summary.txt
+
+--- Budget Manager ---
+1. Add Income
+2. Add Expense
+3. Set Savings Goal
+4. Calculate Summary
+5. Save Summary to File
+6. Quit
+Enter your choice (1-6): 6
+Exiting the program. Goodbye!
+```
+Tips for Users
+- Avoid Commas : When entering numbers, do not use commas (e.g., input 5000 instead of 5,000).
+- Follow Prompts Carefully : Ensure you select the correct menu option and provide valid inputs to avoid errors.
+- Save Your Data : Always save the budget summary to a file so you can refer to it later.
+
 ## Credits
 
 This project was developed as a team effort by:
