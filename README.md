@@ -177,7 +177,7 @@ This project was developed as a team effort by:
 - **Alissia Ornelas** 
 - **Jesus Valenzuela**
 
-## Licence
+## License
 
 MIT License
 
