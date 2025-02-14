@@ -1,3 +1,0 @@
-Some limitations of the program would be the reliance of the user input being that they choose the option first then press enter and then input the amount, as well as the user using “,”. 
-Some recommendation on improving these limitations of the program regarding the reliance on user input accuracy, because the program will only read # inputs without “,”
-for example, instead of user inputting “1,000” user must input “1000”. 
